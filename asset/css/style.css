@@ -1,7 +1,10 @@
+/* Googlefont link */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
 body {
-    font: inter;
+    font-family: inter, san-serif;
 }
 
 h1 {
-    font: macondo;
+    font-family: macondo, cursive;
 }
