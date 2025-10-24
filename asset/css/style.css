@@ -13,10 +13,6 @@
 
 /* Global styles */
 
-.sub-heading-color {
-    color: var(--primary-highlight-color);
-}
-
 body {
     font-family: var(--primary-font);
 }
@@ -28,3 +24,6 @@ h3 {
       color: var(--primary-color);
 } 
 
+.sub-heading-color {
+    color: var(--highlight-color);
+}
