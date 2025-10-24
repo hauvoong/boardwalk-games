@@ -66,6 +66,9 @@ h2 {
         margin-bottom: 1.5rem;
     }
 
+    #new-games .card {
+        border: none;
+    }
 
 
 /* grid visualisation CSS for testing */
