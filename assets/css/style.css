@@ -138,6 +138,14 @@ h2 {
     background-color: transparent;
 }
 
+/* Events */
+
+#student {
+    background-color: var(--highlight-color);
+    color:white;
+    max-width: 300px;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
