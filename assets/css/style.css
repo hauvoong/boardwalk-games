@@ -15,6 +15,7 @@
 
 body {
     font-family: var(--primary-font);
+    padding-top: 57.75px; /* Pushes the top of header down under fixed navbar */
 }
 
 h1,
@@ -102,6 +103,14 @@ h2 {
     border: none;
 }
 
+/* Events */
+
+#student {
+    background-color: var(--highlight-color);
+    color:white;
+    max-width: 300px;
+}
+
 /* Footer / contact */
 
 #contact {
@@ -138,13 +147,7 @@ h2 {
     background-color: transparent;
 }
 
-/* Events */
 
-#student {
-    background-color: var(--highlight-color);
-    color:white;
-    max-width: 300px;
-}
 
 /* grid visualisation CSS for testing */
 
