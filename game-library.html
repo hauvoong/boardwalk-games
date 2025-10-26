@@ -412,57 +412,13 @@
                   <option value="kids-party">Cluedo</option>
                 </select>
               </div>
-              <div class="col-12 col-xl-4 mb-3">
-                <label for="reservation-date" class="form-label"
-                  >Reservation date</label
-                >
-                <input
-                  class="form-control"
-                  id="reservation-date"
-                  name="reservation_date"
-                  type="date"
-                  required
-                />
-              </div>
-              <div class="col-12 col-xl-4 mb-3">
-                <label for="reservation-time" class="form-label"
-                  >Preferred time</label
-                >
-                <input
-                  class="form-control"
-                  id="reservation-time"
-                  name="reservation_time"
-                  type="time"
-                />
-              </div>
-
-              <script>
-                (function () {
-                  const d = document.getElementById("reservation-date");
-                  if (d) {
-                    const today = new Date();
-                    const y = today.getFullYear();
-                    const m = String(today.getMonth() + 1).padStart(2, "0");
-                    const day = String(today.getDate()).padStart(2, "0");
-                    d.min = `${y}-${m}-${day}`;
-                  }
-
-                  // Remove the Preferred time input (and its wrapper) if present
-                  const timeEl = document.getElementById("reservation-time");
-                  if (timeEl) {
-                    const wrapper =
-                      timeEl.closest(".mb-3") || timeEl.parentElement;
-                    if (wrapper) wrapper.remove();
-                    else timeEl.remove();
-                  }
-                })();
-              </script>
-            </div>
-            <div>
-            <button type="submit" class="btn custom-button-outline">
-              Submit
-            </button>
-            </div>
+             <div class="col-12 col-lg-4 mb-3">
+                                <label for="date" class="form-label">Requested date</label>
+                                <input id="date" type="date" class="form-control" name="date" required>
+                            </div>
+                            <div class="col-12 text-end">
+                                <button type="submit" class="btn custom-button-outline mt-3">Submit</button>
+                            </div>
           </form>
         </div>
       </div>
